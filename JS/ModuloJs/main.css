@@ -25,3 +25,8 @@ input, button {
     resize: none;
 }
 
+button {
+    background-color: green;
+    color: white;
+}
+
