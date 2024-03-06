@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 500px;
+    width: 100%;
+}
+
+form {
+    padding: 8px;
+    margin: 8px;
+    display: grid;
+}
+
+input, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
