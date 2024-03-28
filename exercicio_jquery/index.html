@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lista de tarefas</h1>
+                <div id="slider">
+                    <button type="button" id="starterButton">Comece sua lista</button>
+                </div>
+        </header>
+        <form>
+            <h1>Qual os planos para hoje?</h1>
+            <input type="text" name="tarefa" id="novaTarefa" required>
+            <button type="submit" id="addButton">Adicionar</button>
+        </form>
+    </div>
+    <div class="lista">
+        <ul>
+        </ul>
+    </div>
+    <div class="footerMain">
+        <footer>
+        &copy; Desenvolvido por João Gustavo <br>(Aluno Full Stack Python - Ebac)
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
