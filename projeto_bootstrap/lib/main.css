@@ -1,0 +1,43 @@
+header {
+    background-color: rgb(252, 239, 215);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+body {
+    background-color: rgb(252, 239, 215);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: rgb(203, 76, 76);
+}
+
+.nav-link {
+    text-align: center;
+}
+
+#slider {
+    padding-top: 0;
+}
+
+h1 {
+    color: rgb(203, 76, 76);
+    border-bottom: 3px solid ;
+}
+
+.card {
+    margin-bottom: 16px;
+}
+
+footer {
+    background-color: #222529;
+    color: lightgray;
+    padding: 24px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
