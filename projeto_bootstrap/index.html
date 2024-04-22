@@ -8,13 +8,165 @@
     <link rel="stylesheet" href="lib/main.css">
 </head>
 <body>
-    <header>
-        <h1>Teste</h1>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <img src="imagens/20Roll.png" alt="" width="100">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav nav-pills navbar-nav">
+                        <li class="nav-item"><a href="#destaques" class="nav-link active">Destaques</a></li>
+                        <li class="nav-item"><a href="#promocoes" class="nav-link">Promoções</a></li>
+                    </ul>
+                </nav> 
+            </div>
+        </div>
     </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="slider">
+            <div class="container">
+                <div class="carousel slide" id="carousel1" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img class="d-block w-100" src="https://images.ctfassets.net/swt2dsco9mfe/1dQoOoGmRy9NMlAU2aEULd/e8a5f6134a5afba59b3a0cac3cf4f31d/tiamat-email.jpg?q=70" alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Comece com D&D Beyond</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nobis modi
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="d-block w-100" src="https://images.ctfassets.net/swt2dsco9mfe/5rEqeLK8cYTcvpGHLfW34/5982b8c357d84061c77fd24aff1287e6/1920x600-candlekeep-.jpg?q=70" alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Conheça a wiki!</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nobis modi
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="d-block w-100" src="https://2.bp.blogspot.com/-EWY4P9lSgmg/WfTA_-7zN-I/AAAAAAABGw4/VV7xG1Zbd40nAnxX2k7Um9LpVgMqOw4wQCLcBGAs/s1600/Curse%2Bof%2BStrahd%2B-%2BBanner.jpg" alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Livros de campanha</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nobis modi
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-indicators">
+                            <button type="button" class="active" data-bs-target="#carousel1" data-bs-slide-to="0"></button>
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="destaques">
+            <div class="container">
+                <h1>
+                    Destaques
+                </h1>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="https://cdn11.bigcommerce.com/s-1ksvjps4tz/images/stencil/1280x1280/products/1869/61438/3953416__53439.1706525106.png?c=1" />
+                            <div class="card-body">
+                                <h4 class="card-title">Livro do jogador</h4>
+                                <a href="#" class="btn btn-danger" id="preco-cheio"><strong>R$ 299,90</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="https://cdn11.bigcommerce.com/s-ccuysfsb8t/images/stencil/1280x1280/products/177190/122146/WOCC92740000__18138.1627598383.jpg?c=1" />
+                            <div class="card-body">
+                                <h4 class="card-title">Dragões de Fizban</h4>
+                                <a href="#" class="btn btn-danger" id="preco-cheio"><strong>R$ 159,99</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="https://cdn11.bigcommerce.com/s-ua4dd/images/stencil/1280x1280/products/52491/141897/6141070714-product__57092.1645842512.jpg?c=2" />
+                            <div class="card-body">
+                                <h4 class="card-title">Monstros do multiverso</h4>
+                                <a href="#" class="btn btn-danger" id="preco-cheio"><strong>R$ 299,90</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="https://cdn11.bigcommerce.com/s-dhlsncdqp9/images/stencil/1280x1280/products/10594/11854/DnD_TRE_OuterBox_00__56260.1665158314.jpg?c=1" />
+                            <div class="card-body">
+                                <h4 class="card-title">Guia para aventureiros</h4>
+                                <a href="#" class="btn btn-danger" id="preco-cheio"><strong>R$ 59,90</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="promocoes">>
+            <div class="container">
+                <h1>Promoções</h1>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="imagens/dado1.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">kit dados de mana</h4>
+                                <a href="#" class="btn btn-secondary">20%</a>
+                                <a href="#" class="btn btn-danger" id="preco-cheio"><strong>R$ 13,90</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="imagens/dado2.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">Kit dados dwarf</h4>
+                                <a href="#" class="btn btn-secondary">10%</a>
+                                <a href="#" class="btn btn-danger" id="preco-cheio"><strong>R$ 34,90</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="imagens/dado3.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">Kit dados goblin</h4>
+                                <a href="#" class="btn btn-secondary">27%</a>
+                                <a href="#" class="btn btn-danger" id="preco-cheio"><strong>R$ 12,90</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="imagens/dado4.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">Kit dados ametista</h4>
+                                <a href="#" class="btn btn-secondary">30%</a>
+                                <a href="#" class="btn btn-danger" id="preco-cheio"><strong>R$ 10,90</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <p>Desenvolvido por João Gustavo || Curso frontend EBAC 2024</p>
+            </div>
+        </footer>
+    </div>
 
 
 
-    
+    <script src="lib/main.js"></script>
     <script src="lib/bootstrap.bundle.min.js"></script>
 </body>
 </html>
